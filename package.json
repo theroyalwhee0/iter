@@ -1,7 +1,7 @@
 {
   "name": "@theroyalwhee0/iter",
   "version": "0.0.1",
-  "description": "Tools for iterables.",
+  "description": "Iterator tools",
   "main": "src/index.js",
   "author": "Adam Mill <theroyalwhee0@gmail.com>",
   "license": "Apache-2.0",
@@ -23,7 +23,6 @@
   "scripts": {
     "test": "mocha --sort --recursive --check-leaks",
     "test-watch": "mocha --watch --reporter=dot --sort --recursive --check-leaks",
-    "#test-recipes": "mocha --sort --recursive --check-leaks ./recipes/",
     "lint": "eslint src/**/*.js test/**/*.js"
   }
 }

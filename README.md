@@ -1,7 +1,7 @@
 # @theroyalwhee0/iter
 
 ## Description
-Javascript iterator utilities.
+Javascript iterator tools.
 
 
 ## Installation
