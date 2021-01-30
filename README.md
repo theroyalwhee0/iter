@@ -26,7 +26,7 @@ Running ```npm test``` will run the test suite under Mocha. Running ```npm run t
 
 
 ## History
-- 2021-01-04 - v0.0.1
+- v0.0.1 - 2021-01-04
   - Initial release.
 
 
