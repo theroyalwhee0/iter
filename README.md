@@ -26,11 +26,11 @@ Running ```npm test``` will run the test suite under Mocha. Running ```npm run t
 
 
 ## History
-- 2021-01-04 v0.0.1 - Initial release.
+- 2021-01-04 - v0.0.1
+  - Initial release.
 
 
 ## Legal & License
 Copyright 2020-2021 Adam Mill
 
-This library is released under Apache 2 license.
-See LICENSE for more details.
+This library is released under Apache 2 license. See [LICENSE](https://github.com/theroyalwhee0/iter/blob/master/LICENSE) for more details.

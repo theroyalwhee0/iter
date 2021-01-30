@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Iterator tools",
   "main": "src/index.js",
-  "author": "Adam Mill <theroyalwhee0@gmail.com>",
+  "author": "Adam Mill <hismajesty@theroyalwhee.com>",
   "license": "Apache-2.0",
   "keywords": [
     "iter",
