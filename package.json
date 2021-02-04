@@ -1,9 +1,9 @@
 {
   "name": "@theroyalwhee0/iter",
-  "version": "0.0.1",
-  "description": "Iterator tools",
+  "version": "0.0.2",
+  "description": "Iterator/generator utilities for Javascript",
   "main": "src/index.js",
-  "author": "Adam Mill <hismajesty@theroyalwhee.com>",
+  "author": "Adam Mill <hismajesty@theroyalwhee.com> (https://www.theroyalwhee.com)",
   "license": "Apache-2.0",
   "keywords": [
     "iter",
@@ -11,18 +11,29 @@
     "iterable"
   ],
   "directories": {
+    "doc": "docs",
     "test": "test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theroyalwhee0/iter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theroyalwhee0/iter/issues"
+  },
+  "homepage": "https://github.com/theroyalwhee0/iter#readme",
+  "dependencies": {},
   "devDependencies": {
     "chai": "4.2.0",
-    "debug": "4.3.1",
     "eslint": "7.17.0",
-    "mocha": "8.2.1",
-    "sinon": "9.2.2"
+    "jsdoc": "3.6.6",
+    "mocha": "8.2.1"
   },
   "scripts": {
     "test": "mocha --sort --recursive --check-leaks",
     "test-watch": "mocha --watch --reporter=dot --sort --recursive --check-leaks",
-    "lint": "eslint src/ test/"
+    "lint": "eslint src/ test/",
+    "docs": "jsdoc --pedantic --readme ./README.md --recurse --destination docs/ src/",
+    "dryrun": "npm test && npm run lint && npm run docs && npm audit && npm publish --dry-run"
   }
 }

@@ -2,7 +2,6 @@
  * Imports.
  */
 const chai = require('chai');
-const sinon = require('sinon');
 const { chaiIter } = require('./chaiiter');
 
 /**
@@ -17,11 +16,6 @@ const { expect } = chai;
 chai.use(chaiIter);
 
 /**
- * Sinon.
- */
-const { spy } = sinon;
-
-/**
  * Exports.
  */
 module.exports = {
@@ -29,6 +23,4 @@ module.exports = {
   describe, it,
   // Chai.
   expect,
-  // Sinon.
-  spy,
 };

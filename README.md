@@ -1,7 +1,7 @@
 # @theroyalwhee0/iter
 
 ## Description
-Javascript iterator tools.
+Iterator/generator utilities for Javascript.
 
 
 ## Installation
@@ -21,11 +21,14 @@ Running ```npm test``` will run the test suite under Mocha. Running ```npm run t
 
 
 ## Links
-- GitHub: https://github.com/theroyalwhee0/iter
-- NPM: https://www.npmjs.com/package/@theroyalwhee0/iter
+- GitHub: https://github.com/theroyalwhee0/iter/
+- NPM: https://www.npmjs.com/package/@theroyalwhee0/iter/
 
 
 ## History
+- v0.0.2 - 2021-02-04
+  - Add documentation.
+  - Remove unused dev depends.
 - v0.0.1 - 2021-01-04
   - Initial release.
 
