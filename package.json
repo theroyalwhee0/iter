@@ -1,6 +1,6 @@
 {
   "name": "@theroyalwhee0/iter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Iterator/generator utilities for Javascript",
   "main": "src/index.js",
   "author": "Adam Mill <hismajesty@theroyalwhee.com> (https://www.theroyalwhee.com)",
@@ -22,18 +22,17 @@
     "url": "https://github.com/theroyalwhee0/iter/issues"
   },
   "homepage": "https://github.com/theroyalwhee0/iter#readme",
-  "dependencies": {},
   "devDependencies": {
     "chai": "4.2.0",
     "eslint": "7.17.0",
-    "jsdoc": "3.6.6",
+    "jsdoc": "3.6.7",
     "mocha": "8.2.1"
   },
   "scripts": {
     "test": "mocha --sort --recursive --check-leaks",
     "test-watch": "mocha --watch --reporter=dot --sort --recursive --check-leaks",
     "lint": "eslint src/ test/",
-    "docs": "jsdoc --pedantic --readme ./README.md --recurse --destination docs/ src/",
+    "docs": "jsdoc -c .jsdoc.conf.json",
     "dryrun": "npm test && npm run lint && npm run docs && npm audit && npm publish --dry-run"
   }
 }

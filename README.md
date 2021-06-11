@@ -26,6 +26,9 @@ Running ```npm test``` will run the test suite under Mocha. Running ```npm run t
 
 
 ## History
+- v0.0.3 - 2021-06-11
+  - Bump depends for security.
+  - Fix docs to not have dates.
 - v0.0.2 - 2021-02-04
   - Add documentation.
   - Remove unused dev depends.

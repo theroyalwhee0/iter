@@ -1,6 +1,6 @@
 /**
  * @file Iterator tools
- * @version v0.0.2
+ * @version v0.0.3
  * @author Adam Mill <hismajesty@theroyalwhee.com>
  * @copyright Copyright 2020-2021 Adam Mill
  * @license Apache-2.0
