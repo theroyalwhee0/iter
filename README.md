@@ -5,11 +5,11 @@ Iterator/generator utilities for Javascript.
 
 
 ## Installation
-npm install @theroyalwhee0/iter
+`npm install @theroyalwhee0/iter`
 
 *or*
 
-yarn add @theroyalwhee0/iter
+`yarn add @theroyalwhee0/iter`
 
 
 ## Documentation
@@ -26,6 +26,8 @@ Running ```npm test``` will run the test suite under Mocha. Running ```npm run t
 
 
 ## History
+- v1.0.0 - 2022-06-04
+  - Bump depends for security.
 - v0.0.3 - 2021-06-11
   - Bump depends for security.
   - Fix docs to not have dates.
@@ -37,6 +39,6 @@ Running ```npm test``` will run the test suite under Mocha. Running ```npm run t
 
 
 ## Legal & License
-Copyright 2020-2021 Adam Mill
+Copyright 2020-2022 Adam Mill
 
 This library is released under Apache 2 license. See [LICENSE](https://github.com/theroyalwhee0/iter/blob/master/LICENSE) for more details.
