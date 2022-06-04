@@ -1,6 +1,6 @@
 {
   "name": "@theroyalwhee0/iter",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Iterator/generator utilities for Javascript",
   "main": "src/index.js",
   "author": "Adam Mill <hismajesty@theroyalwhee.com> (https://www.theroyalwhee.com)",
@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/theroyalwhee0/iter#readme",
   "devDependencies": {
-    "chai": "4.2.0",
-    "eslint": "7.17.0",
-    "jsdoc": "3.6.7",
-    "mocha": "8.2.1"
+    "chai": "4.3.6",
+    "eslint": "8.17.0",
+    "jsdoc": "3.6.10",
+    "mocha": "10.0.0"
   },
   "scripts": {
     "test": "mocha --sort --recursive --check-leaks",
